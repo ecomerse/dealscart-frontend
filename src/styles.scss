@@ -1,0 +1,60 @@
+
+$main: #232f3e;
+.bg-main{
+    background-color: $main;
+}
+
+a{
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ffc107;
+
+
+}
+button{
+    cursor: pointer;
+}
+section{
+    min-height: 600px;
+}
+h5{
+    overflow-wrap: break-word;
+}
+.image{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.star {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    color:  #d3d3d3;
+
+}
+.full{
+    color: gold;
+
+}
+.half{
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    color: gold;
+}
+
+.ais-SearchBox { margin-bottom: 1em }
+.ais-Pagination { margin-top: 1em }
+.right-panel { margin-left: 260px }
+.ais-InstantSearch { max-width: 960px; overflow: hidden; margin: 0 auto }
+.ais-Hits-item { margin-bottom: 1em; width: calc(50% - 1rem) }
+.ais-Hits-item img { margin-right: 1em }
+.hit-name { margin-bottom: .5em }
+.hit-description { color: #888; font-size: 14px; margin-bottom: .5em }
